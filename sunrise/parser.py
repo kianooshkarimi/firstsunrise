@@ -17,7 +17,7 @@ def parse(usertext):
         regex = list_of_action_patterns[i][0]
         classification = list_of_action_patterns[i][1]
         matched_or_not = re.search(regex, usertext)
-        if (bool(matched_or_not)):
+        if bool(matched_or_not):
             output = classification
     return output
 
