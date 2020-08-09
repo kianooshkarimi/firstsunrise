@@ -9,7 +9,6 @@ def parse(usertext):
     list_of_action_patterns = [
         [calculator_regex, Calculator(usertext)]
             ]
-
     clasfict = ''       
     regex = ''
     output = None
