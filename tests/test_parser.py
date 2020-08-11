@@ -7,10 +7,10 @@ def test_parser():
     try:
         assert issubclass(action, Action)
     except:
-        print('Cannot parse the entered text as an action')
+        print('Cannot parse the entered text as an action.')
         
     try:
         assert issubclass(action, Calculator)
     except:
-        print('cannot parse the entered text as a calculation action')
+        print('Cannot parse the entered text as a calculation action.')
 
